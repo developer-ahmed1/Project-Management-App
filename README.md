@@ -1,16 +1,29 @@
-# login_page
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Project Management App
+A Flutter-based project management app to organize projects and tasks efficiently. Built with Firebase (Firestore & Authentication) for backend and Provider for state management.
+Features
+•	Projects: Add, view, edit, delete with title, description, dates, and status.
+•	Tasks: Manage tasks linked to projects with title, description, due date, priority, and status.
+•	Dashboard: Summary of projects, tasks, and progress.
+•	Authentication: Secure user login/registration with Firebase.
+Tech Stack
+•	Frontend: Flutter
+•	Backend: Firebase (Firestore, Authentication)
+•	State Management: Provider
+Installation
+1.	Clone the repo:
+bash
+Copy
+git clone https://github.com/your-username/project-management-app.git  
+2.	Set up Firebase and add config files.
+3.	Install dependencies:
+bash
+Copy
+flutter pub get  
+4.	Run the app:
+bash
+Copy
+flutter run  
+License
+MIT License.
+________________________________________
+Simplify your workflow with this intuitive project management tool! 🚀
